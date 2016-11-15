@@ -1,0 +1,56 @@
+Git command review
+
+1. Compare two commits, printing each line that is
+  present in one commit but not the other.
+
+                git diff
+
+   will do this. It takes two arguments - the two
+   commit ids to compare.
+
+
+2. Make a copy of an entire Git repository, including
+    the history, onto your own computer.
+
+                git clone
+
+  will do this. It takes one argument - the url of t
+  he repository to copy.
+
+
+3.  Temporarily reset all files in a directory to their
+    state at the time of a specific commit.
+
+                git checkout
+
+    will do this. It takes one argument
+    - the commit ID to restore.
+    AND by this it means, when you enter this into the terminal e.g. below:
+
+    KateSmith $ pappu-pakia git checkout 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a
+
+    When you go to the (in this case) pappu-pakia directory and run the relevant
+    file, it will be set in the state it was in when the commit (id 003c8c197cd3b1e5b28b58f53ee14d7ebaa9bb3a)
+    was made.  You'll need to actually run / open the file to see how it was behaving.
+
+
+4.  Show the commits made in this repository,
+    starting with the most recent.
+
+                git log
+
+    will do this. It doesn't take any arguments.
+
+
+5. Compare differeces of two files
+
+                diff -u (file name 1) (file name 2)
+
+
+6.  You can ask the terminal how many items were changed within
+    each commit and for which file.
+
+                git log --stat
+
+    The terminal will inform you which files changed within the
+    dir and how many items were changed within each file.

@@ -1,0 +1,41 @@
+git checkout is a method of going back to a particular commit (or
+version of your work and restoring it).
+
+HOW TO:
+
+If you want to open your html in a browser...
+1. Navigate to the file using 'Finder'
+
+2. If you saved your repository in the Home dir and are having
+   trouble finding it just press Cmd + Shift + H
+
+3. Find the appropriate dir and then file, but right click to
+   'open the file in Chrome'
+
+TO USE GIT CHECKOUT
+
+1. In Terminal, make sure you're in the correct dir with the correct
+   file.
+
+2. type:
+      git checkout
+   and paste the appropriate git log code next to 'checkout'
+   then press return.
+
+   When you go back to the file that you have used git checkout on,
+   you should find that this commit is the version that is currently
+   available, i.e. if I used a particular commit id code for git checkout
+   in the terminal and then went back to to the html file, the computer
+   would load the version of that file that was saved when that commit
+   was entered.
+
+   Does that make sense? Not sure.
+
+GIT LOG
+
+So if I've selected an earlier commit and I now request the git log in
+the terminal, the terminal will tell me that the commit I have just
+selected, is the latest change to the file.
+
+There is a way to go and review the more recent commits not displayed here,
+but that comes in a later lesson.

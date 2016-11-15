@@ -1,0 +1,35 @@
+Certain 'background files' that are hidden from the
+user are necessities, but considered to be unimportant
+for the user.  These files often begin with a fullstop
+and cannot be searched for in the normal method you would
+when looking for a file.  In fact, to locate them, you
+will need to use the terminal and rather than asking it
+to list files by typing just:
+
+ls
+
+You will have to input:
+
+ls -a
+
+This will list all the files in the folder, including
+the hidden ones, such as git files.
+
+HOW TO CREATE A GIT REPOSITORY FROM SCRATCH:
+
+You can either create a new directory or add a git repository
+to a directory that already exists.
+
+1.  After choosing or creating a directory in the terminal, make sure
+    you're sitting within that directory, e.g.  ksmith $ cd version-control
+
+2.  use git init to create a new repository e.g.
+
+    ksmith version-control $  git init
+
+    If you run $ ls -a after this action, you will see that a git repository
+    has been created (displayed as .git)
+
+
+TIP - You can run: git status to be shown which files have been changed since
+the last commit.

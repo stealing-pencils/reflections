@@ -1,0 +1,55 @@
+Within a directory (where you want to use git),
+you'll have, what you should consider to be,
+different areas:
+
+1.  The working directory (holding your files)
+2.  The repository, holding all your git commits
+    over time.
+3.  The staging area, the intermediate area used
+    to stage interactions between the working
+    directory and the repository.
+
+
+THE STAGING AREA
+
+For example, say I have three files in my
+working directory:
+
+cake.txt
+frosting.txt
+chili.txt
+
+I can move, say, two of those files to my staging
+area before I chose to then add the snapshot of the
+work I've done as a commit to my repository.
+When I want to make that commit, that will be
+taken into the repository as one commit on those two
+files.
+
+Go to: https://classroom.udacity.com/courses/ud775/lessons/2969618657/concepts/29605487680923
+for more.
+
+HOW TO DO THIS IN THE TERMINAL
+
+So my working directory is already up and running, let's call
+it recipes.  My terminal command line will look like this:
+
+ksmith (master #) recipes $
+
+(don't worry about the master bit, this is something
+the computer adds itself).  To add files to the staging area
+you need to input:
+
+        git add
+
+e.g.
+ksmith (master #) recipes $ git add
+
+and you'll include the files you want to add to the staging area,
+e.g.
+
+ksmith (master #) recipes $ git add cake.txt
+ksmith (master #) recipes $ git add frosting.txt
+
+If you run git status now, git will tell you  that these
+files have been added to the staging area.
