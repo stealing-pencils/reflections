@@ -1,0 +1,14 @@
+Git has a command that allows
+you to clone an entire repository
+(the separate files that are related
+and each of their historical commits).
+
+To use this git clone method, in the
+terminal cd to the dir you would like
+to copy the repository to, (so in
+this case the dir will be 'version-control')
+and then type the command git clone followed
+by the url of the repository you want to copy.
+E.g.
+
+KateSmith version-control $ git clone https://github.com/udacity/asteroiuds.git
